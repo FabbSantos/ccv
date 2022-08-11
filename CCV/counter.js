@@ -1,9 +1,14 @@
-export function setupCounter(element) {
-  let counter = 0
-  const setCounter = (count) => {
-    counter = count
-    element.innerHTML = `count is ${counter}`
+setInterval(isCheck, 4000) 
+  function isCheck() {
+    const s1 = document.querySelector('#Slide1')
+    const s2 = document.querySelector('#Slide2')
+
+
+    s2.checked = !s2.checked
+    s1.checked = !s2.checked
   }
-  element.addEventListener('click', () => setCounter(++counter))
-  setCounter(0)
-}
+
+
+
+
+
