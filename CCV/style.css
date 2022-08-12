@@ -137,7 +137,9 @@ h1 {
   display: none;
 }
 
-
+.slide{
+  background: none;
+}
 
 #Slide1:checked ~ .overflow-wrapper {
   margin-left: 0%;

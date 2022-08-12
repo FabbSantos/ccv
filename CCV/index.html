@@ -39,7 +39,7 @@
           economia e nenhuma das preocupações. </p>
 
         <button
-          class="flex flex-row justify-center self-center md:self-start items-center my-9 py-3 px-8 rounded-2xl max-w-[170px] bg-blue__button hover:shadow-lg hover:bg-blue-600 transition-all">
+          class="flex flex-row justify-center self-center md:self-start items-center my-9 py-3 px-8 rounded-3xl max-w-[170px] bg-blue__button hover:shadow-lg hover:bg-blue-600 transition-all">
           Saiba mais </button>
 
         <div class="flex justify-around md:mt-4 md:max-w-[300px]">
@@ -60,23 +60,28 @@
 
   <!-- Beginning of the slide -->
 
-  <div id="slider-wrapper" class="relative min-w-[100%] min-h-[70vh]  md:mx-auto">
-    <div class="inner-wrapper">
+  <div id="slider-wrapper"
+    class="relative min-w-[100%] min-h-[70vh] bg-cars_banner bg-[length:100%_100%] bg-no-repeat md:mx-auto">
+    <div class="inner-wrapper bg-none">
       <input checked type="radio" name="slide" class="control" id="Slide1" />
       <label for="Slide1" id="s1"></label>
       <input type="radio" name="slide" class="control" id="Slide2" />
       <label for="Slide2" id="s2"></label>
-      
-      
-      <div class="overflow-wrapper relative">
-        <div
-          class="slide flex flex-col lg:flex-row md:justify-center items-center bg-white min-h-[70vh] min-w-[100vw] bg-cars_banner bg-cover bg-no-repeat">
+
+
+      <div class="overflow-wrapper relative bg-none">
+        <div class="slide flex flex-col lg:flex-row md:justify-center items-center bg-white min-h-[70vh] min-w-[100vw]">
           <div class="md:max-w-[533px]">
             <h2 class="text-secondary text-5xl font-bold mb-3">Tracker 1.0 0km</h2>
             <p class="text-secondary text-2xl"> A partir de <br> R$<span
                 class="text-primary_red text-4xl font-bold">2.794,00</span> /mês </p>
             <p class="text-secondary text-2xl"> 24 meses/1000 km </p>
-            <button></button>
+
+            <button
+              class="flex flex-row justify-center self-center md:self-start items-center my-9 py-3 px-8 rounded-3xl bg-darkBlue hover:shadow-lg hover:bg-blue-600 transition-all">
+              Quero assinar
+            </button>
+
           </div>
           <div>
             <img class="md:min-w-[632px]" src="./assets/tracker.svg" alt="Chevrolet Tracker 1.0">
@@ -84,13 +89,19 @@
         </div>
 
 
-        <div class="slide mt-0  flex md:justify-center items-center bg-white md:min-h-[70vh] md:w-[100vw] bg-cars_banner bg-cover bg-no-repeat">
+        <div
+          class="slide flex-col lg:flex-row flex md:justify-center items-center bg-white md:min-h-[70vh] md:w-[100vw]">
           <div class="md:max-w-[533px]">
             <h2 class="text-secondary text-5xl font-bold mb-3">Spin LS Automática 0km</h2>
             <p class="text-secondary text-2xl"> A partir de <br> R$<span
                 class="text-primary_red text-4xl font-bold">2.989,00</span> /mês </p>
             <p class="text-secondary text-2xl"> 24 meses/1000 km </p>
-            <button></button>
+            
+            <button
+              class="flex flex-row justify-center self-center md:self-start items-center my-9 py-3 px-8 rounded-3xl bg-darkBlue hover:shadow-lg hover:bg-blue-600 transition-all">
+              Quero assinar
+            </button>
+
           </div>
           <div>
             <img class="md:min-w-[632px]" src="./assets/CHEVROLET_SPIN.svg" alt="Chevrolet Spin">
@@ -102,6 +113,29 @@
   </div>
 
   <!-- end of the slide -->
+  
+  <!-- Beginning "o que é serviço por assinatura" -->
+
+  <div class="flex flex-col px-4 lg:px-0 lg:flex-row bg-white justify-evenly items-center lg:max-w-[1400px] lg:pb-5">
+    <img src="./assets/couple_car.svg" alt="Couple in the car">
+
+    <div class="flex flex-col flex-start lg:max-w-[600px]">
+      <p class="text-primary_red lg:mt-24"> O que é serviço de carro por assinatura? </p><br>
+
+      <h4 class="font-semibold text-[2em] text-primary_red leading-10"> É uma nova maneira de dirigir um carro para quem procura por mais praticidade e economia no dia a dia. </h4><br>
+      <p class="text-darkBlue"> Você escolhe um plano que mais combina com suas necessidades. </p><br>
+
+      <p class="text-darkBlue"> Dirige sem se preocupar com serviços de revisão, impostos e seguro, pagando o mesmo valor mensalmente. </p> <br>
+      
+      <p class="text-darkBlue"> Ao final, você devolve o veículo, sem burocracias, e pode renovar seu contrato escolhendo o mesmo ou outro veículo. </p>
+
+      <button class="flex flex-row bg-primary_red hover:bg-red-700 justify-center self-center lg:self-start items-center my-9 py-3 px-8 rounded-3xl hover:shadow-lg transition-all">
+        Quero saber mais
+      </button>
+    </div>
+  </div>
+
+  <!-- end of the "o que é serviço por assinatura" -->
 
 </body>
 

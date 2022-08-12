@@ -13,6 +13,7 @@ module.exports = {
         'blue__button': "#1D71B8",
         'secondary':'#0F4179',
         'primary_red':'#981424',
+        'darkBlue':'#042C4C',
       },
     },
   },
